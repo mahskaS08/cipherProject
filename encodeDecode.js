@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // scripts.js
 
 
-app.get("/cipher", function (req, res) {  //http://localhost:4000/cipher
+app.get("/", function (req, res) {  //http://localhost:4000/cipher
   res.sendFile(__dirname + "/index.html");
 });
 app.get("/ceaser.html", function (req, res) {  //http://localhost:4000/cipher
